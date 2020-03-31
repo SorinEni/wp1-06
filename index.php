@@ -49,19 +49,19 @@ if ($nails) {
 <?php
 
 if ($rope && $knife && $woodchunk ) {
-    echo "Bow<br>";
+    echo '<img src="https://images.squarespace-cdn.com/content/v1/5afc558f50a54faa9586e9aa/1536447420193-Y8CFUYEXCRWVN9Z7TOSZ/ke17ZwdGBToddI8pDm48kJUlZr2Ql5GtSKWrQpjur5t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfNdxJhjhuaNor070w_QAc94zjGLGXCa1tSmDVMXf8RUVhMJRmnnhuU1v2M8fLFyJw/Old+Bow+and+ArrowM2.jpg" alt="luk"><br>';
 } 
 
 elseif ($nails && $woodchunk ) {
-    echo "Nail bat<br>";
+    echo '<img src="https://primalconcepts.net/wp-content/uploads/2019/11/FullSizeRender_1.jpeg" alt="pálka"><br>';
 }
 
 elseif ($rope && $woodchunk ) {
-    echo "Nunchucks<br>";
+    echo '<img src="https://www.fighter-shop.cz/69250-large_default/drevena-nunchaku-12-prirodni-drevo-snura.jpg" alt="nunčaky"><br>';
 }
 
 elseif ($knife && $woodchunk ) {
-    echo "Spear<br>";
+    echo '<img src="https://gillsprimitivearchery.com/wp-content/uploads/2018/07/fish-spear-2.jpg" alt="kopí"><br>';
 }
 
 else {
